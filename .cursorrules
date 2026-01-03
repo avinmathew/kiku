@@ -1,0 +1,5 @@
+---
+description: This is a full-stack project with 'frontend' and 'backend' subdirectories. Ensure you are working in the correct root based on the task requested. 
+globs:
+alwaysApply: true
+---
