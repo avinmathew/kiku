@@ -1,14 +1,18 @@
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-pydantic==2.5.0
-pydantic-settings==2.1.0
-faster-whisper==0.9.0
-transformers==4.35.0
-torch==2.1.0
-ffmpeg-python==0.2.0
-aiofiles==23.2.1
-httpx==0.25.1
-python-multipart==0.0.6
-python-dotenv==1.0.0
-sentencepiece==0.1.99
+# Core backend
+fastapi
+uvicorn[standard]==0.40.0
+pydantic==2.12.5
+pydantic-settings==2.12.0
+httpx
+aiofiles==25.1.0
+python-multipart==0.0.21
+python-dotenv==1.2.1
 
+# ML / Audio
+torch==2.9.1
+transformers==4.57.3
+sentencepiece==0.2.1
+faster-whisper==1.2.1
+
+# FFmpeg Python wrapper
+ffmpeg-python==0.2.0
